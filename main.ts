@@ -13,7 +13,7 @@ let inn1 = 0
 inn1 = 0
 inn2 = 0
 basic.forever(function () {
-    if (inn1 && inn2) {
+    if (inn1 || inn2) {
         basic.showString("ON")
     } else {
         basic.showString("OFF")
